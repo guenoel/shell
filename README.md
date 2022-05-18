@@ -1,1 +1,1 @@
-exercice en shell
+ma repo pour les exercices de base
