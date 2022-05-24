@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list | sort -du
+cat list_1 | sort -du
