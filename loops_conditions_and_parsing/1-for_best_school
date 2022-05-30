@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Pour chaque element de 0 jusqu'a 9 fait affiche "Best School"
-i=0
 for i in {0..9};do
 echo "Best School"
+i=0
 done
