@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#en partant du principe que i équivaut à 10 jusqu'a ce que i soit égal à 0 execute afficher "Best School" et retire 1 à i
+i=10
+until [ $i = 0 ]
+do
+	echo "Best School"
+	i=$((i-1))
+done
