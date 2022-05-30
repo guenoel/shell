@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#en partant du principe que i équivaut à 10 tant que i est différent de 0 execute afficher "Best School" et retire 1 à i 
 i=10
 while [ $i != 0 ]
 do
