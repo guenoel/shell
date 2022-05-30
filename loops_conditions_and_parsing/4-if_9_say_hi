@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#partant que i équivaut à 0, tant que i est différent de 10 affiche "best school" et si i=9 alors [affiche "hi" et continue la boucle]
+i=0
+while [ $i != 10 ]
+do
+	echo "Best School"
+	i=$((i+1))
+	if [ $i == 9 ]; then
+		echo "Hi"
+	continue
+	fi
+done
