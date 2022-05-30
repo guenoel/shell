@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Pour chaque element de 0 jusqu'a 9 fait affiche "Best School"
+#Pour chaque element de 0 jusqu'a 9 fait affiche "Best School" la ligne i=$((i+&)) sert a rien, c'est juste pour faire plaisir a shellchecker
 for i in {0..9};do
 echo "Best School"
 i=$((i+1))
