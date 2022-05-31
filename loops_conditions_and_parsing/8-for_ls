@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# comments
+for file in *
+do echo -e "$file" | cut -d "-" -f2 
+done
