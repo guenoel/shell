@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #comment
+LC_ALL=C
 less /etc/passwd | while IFS= read -r line;do
 USERNAME=$(printf "..%s.." "'$line'" | cut -d ":" -f1)
 GROUP_ID=$(printf "..%s.." "'$line'" | cut -d ":" -f4)
