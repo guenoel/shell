@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+#afficher tout avec arborescence et garder que bash et ses sous-process
+# shellcheck disable=SC2059
+ps auxf | grep bash
