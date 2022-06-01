@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+#afficher process utilisant pgrep au lieu de ps | grep
+pgrep -f bash
