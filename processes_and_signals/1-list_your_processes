@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+#afficher tout (meme tty) avec les users et avec hierarchie
+ps aux
