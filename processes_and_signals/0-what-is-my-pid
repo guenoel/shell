@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#affiche le pid du script courant
 echo $$
