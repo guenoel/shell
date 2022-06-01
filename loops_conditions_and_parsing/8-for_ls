@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# comments
-for file in *
-do echo -e "$file" | cut -d "-" -f2 
+# Pour chaque résultat (ligne) affiche en interpretant les caracteres speciaux le contenu de tata et affiche que la 2eme colonnedans la separation est un tiret
+for tata in *
+do echo -e "$tata" | cut -d "-" -f2 
 done
