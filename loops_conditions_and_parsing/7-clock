@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# comments
+# tant que h est different de 13 affiche "Hour: $h" ET AUSSI i tant que i est different de 59. 1 boucle incluse dans la premiere
 i=0
 h=0
 while [ $h != 13 ];do
