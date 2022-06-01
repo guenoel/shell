@@ -2,10 +2,10 @@
 #comment
 LC_ALL=C
 less /etc/passwd | while IFS= read -r line;do
-USERNAME=$(printf "..%s.." "'$line'" | cut -d ":" -f1)
+USERNAME=$(printf "..%s.." "..\''$line'" | cut -d ":" -f1)
 GROUP_ID=$(printf "..%s.." "'$line'" | cut -d ":" -f4)
 HOME_DIRECTORY=$(printf "..%s.." "'$line'" | cut -d ":" -f6)
-COMMANDSHELL=$(printf "..%s.." "'$line'" | cut -d ":" -f7)
+COMMANDSHELL=$(printf "..%s.." "'$line'\'..." | cut -d ":" -f7)
 USERID=$(printf "..%s.." "'$line'" | cut -d ":" -f3)
 PASSWORD=$(printf "..%s.." "'$line'" | cut -d ":" -f2)
 USERIDINFO=$(printf "..%s.." "'$line'" | cut -d ":" -f5)
