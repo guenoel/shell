@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #comments
-if [ $1 == start ];then
+if [ "$1" == start ];then
 	sudo ./manage_my_process
 	echo $!>/var/run/my_process.pid
 	echo "manage_my_process started"
-elif [ $1 == stop ];then
-	kill $(cat /var/run/my_primocess.pid) && rm /var/run/my_process.pid
+elif [ "$1" == stop ];then
+	kill "$(cat /var/run/my_primocess.pid)" && rm /var/run/my_process.pid
 	echo "manage_my_process stopped"
-elif [ $1 == restart ];then
-	kill $(cat /var/run/my_primocess.pid) && rm /var/run/my_process.pid
+elif [ "$1" == restart ];then
+	kill "$(cat /var/run/my_primocess.pid)" && rm /var/run/my_process.pid
 	sudo ./manage_my_process
 	echo $!>/var/run/my_process.pid
 	echo "manage_my_process restarted"
